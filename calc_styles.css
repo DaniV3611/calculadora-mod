@@ -39,6 +39,8 @@ main {
 #calc-input {
   font-size: x-large;
   flex: 3;
+  max-width: 70%; /* Evita que el input se salga del contenedor */
+  box-sizing: border-box; /* Incluye el padding y borde en el tamaño total del input */
 }
 
 #btn-0 {
